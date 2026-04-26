@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video indo vdeey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            cursor: pointer;
+        }
+
+        video {
+            width: 100%;
+            border-radius: 10px;
+            display: block;
+            pointer-events: none; /* supaya tidak bisa diputar */
+        }
+
+        /* Overlay gelap tipis */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.3);
+            border-radius: 10px;
+        }
+
+        /* Tombol play palsu */
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 70px;
+            height: 70px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 50%;
+        }
+
+        .play-button:after {
+            content: '';
+            position: absolute;
+            left: 28px;
+            top: 20px;
+            border-style: solid;
+            border-width: 15px 0 15px 25px;
+            border-color: transparent transparent transparent black;
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">selengkapnya di sini</h2>
+
+<a href="https://injusticebakery.com/ky2ke53zw?key=f6a8bd8c5fa5e272c54364f2b859de84" target="_blank">
+    <div class="video-container">
+        <video>
+            <source src="faik.mp4" type="video/mp4">
+        </video>
+
+        <div class="overlay"></div>
+        <div class="play-button"></div>
+    </div>
+</a>
+
+</body>
+</html>
